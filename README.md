@@ -8,6 +8,9 @@ Since the Tango API only provides a local coordinate system out of the box this 
 ## Using the app
 This is a prototype app and the GUI doesn't provide all the guidance for using it and have norwegian texts. For best results please follow the procedure given here when using it.
 
+
+<img src="img/Portray_property_boundery.png" alt="Using the app" width="600"/>
+
 Before you start:
 * Make sure GPS is turned on
 * Make sure you have a stable internet connection.
