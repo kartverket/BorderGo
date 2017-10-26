@@ -1,4 +1,4 @@
-# BorderGo
+﻿# BorderGo
 This code repo contains the sourcecode of an experimental android app utilizing the Tango Augmented reality platform. The Norwegian Map Authority ([Kartverket](http://www.kartverket.no)) initiated the project, financed the development as well as providing access to public datasets. Norkart AS was given the assignment to develop a working solution and implement the code for the app.
 
 The specific purpose of the experiment is to attempt to syncronize the Tango Coordinate system with the real geographical location and compass orientation to be able to display the cadestral borders (land properties) directly on the physical terrain as seen through the AR camera view on an Android smartphone. 
@@ -141,7 +141,7 @@ Contains basic classes for storing geometric objects such as points, polylines, 
 A very basic wrapper around OpenGL to add  geometries to a scene and provide ways to control the visual rendering appearance of those geometries on a GlSurfaceView. The purpose of this library was to have a lightweight way to visualize geometry in the app without having to rely on a large third party scene graph.
 
 ## System sketch/ dataflows
-![Illustration](DataFlytBorderGO.png?raw=true)
+![Illustration](img/DataFlytBorderGO.png?raw=true)
 
 ### Sequential steps:
 __0)__ App starts from homescreen and enters SplashActivity __1)__ BorderGoApp is instantiated __2)__ Config is instantiated and put into BorderGoApp __3)__ Permissions are requested from the user __4)__ Checks if permissions were granted __5)__ If granted MainActivity is started
