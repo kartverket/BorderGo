@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wfs:FeatureCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd http://skjema.geonorge.no/SOSI/produktspesifikasjon/Postkretser http://wfs.geonorge.no/skwms1/wfs.postkretser?SERVICE=WFS&amp;VERSION=2.0.0&amp;REQUEST=DescribeFeatureType&amp;OUTPUTFORMAT=application%2Fgml%2Bxml%3B+version%3D3.2&amp;TYPENAME=app:Postomr%C3%A5degrense&amp;NAMESPACES=xmlns(app,http%3A%2F%2Fskjema.geonorge.no%2FSOSI%2Fproduktspesifikasjon%2FPostkretser)
+http://www.opengis.net/wfs/2.0 " xmlns:wfs="http://www.opengis.net/wfs/2.0" timeStamp="2017-05-15T12:06:01Z" xmlns:gml="http://www.opengis.net/gml/3.2"
+    numberMatched="unknown" numberReturned="0">
+    <!--NOTE: numberReturned attribute should be 'unknown' as well, but this would not validate against the current version of the WFS 2.0 schema (change upcoming). See change request (CR 144): https://portal.opengeospatial.org/files?artifact_id=43925.-->
+    <wfs:member>
+        <app:Postområdegrense xmlns:app="http://skjema.geonorge.no/SOSI/produktspesifikasjon/Postkretser"
+            gml:id="id94aa4e59-a0df-4300-a975-f8033a801b2e">
+            <app:grense>
+                <!--Inlined geometry 'id94aa4e59-a0df-4300-a975-f8033a801b2e-0'-->
+                <gml:LineString gml:id="id94aa4e59-a0df-4300-a975-f8033a801b2e-0" srsName="urn:ogc:def:crs:EPSG::4258">
+                    <gml:posList>59.889512 10.517090 59.889809 10.517688 59.889931 10.518262
+                        59.889737 10.519258 59.889407 10.520311 59.888804 10.521263 59.888531
+                        10.521507 59.888282 10.522059 59.887624 10.523771 59.888986 10.526438
+                        59.890280 10.524313 59.891421 10.522423 59.891694 10.520937 59.891155
+                        10.517788 59.891098 10.515058 59.891089 10.513734 59.890998 10.510275
+                        59.890415 10.506651 59.890780 10.506303 59.891388 10.507668 59.891793
+                        10.507106 59.892072 10.507707 59.892828 10.506197 59.893481 10.508185
+                    </gml:posList>
+                </gml:LineString>
+            </app:grense>
+            <app:identifikasjon>
+                <app:Identifikasjon>
+                    <app:lokalId>51980674-fa6b-4f85-ac8b-4efbe9b00e7c</app:lokalId>
+                    <app:navnerom>
+                        http://skjema.geonorge.no/SOSI/prosuktspesifikasjon/Kartverket/Postsoner/20151210
+                    </app:navnerom>
+                </app:Identifikasjon>
+            </app:identifikasjon>
+            <app:kvalitet>
+                <app:Posisjonskvalitet>
+                    <app:målemetode>55</app:målemetode>
+                    <app:nøyaktighet>200</app:nøyaktighet>
+                </app:Posisjonskvalitet>
+            </app:kvalitet>
+        </app:Postområdegrense>
+    </wfs:member>
+    <wfs:member>
+        <app:Postområdegrense xmlns:app="http://skjema.geonorge.no/SOSI/produktspesifikasjon/Postkretser"
+            gml:id="idf17b2bb9-39f5-44e5-8691-61727918e8f9">
+            <app:grense>
+                <!--Inlined geometry 'idf17b2bb9-39f5-44e5-8691-61727918e8f9-0'-->
+                <gml:LineString gml:id="idf17b2bb9-39f5-44e5-8691-61727918e8f9-0" srsName="urn:ogc:def:crs:EPSG::4258">
+                    <gml:posList>59.898171 10.523098 59.897895 10.522398 59.897276 10.521275
+                        59.896569 10.521936 59.896258 10.521491 59.895590 10.522049 59.895801
+                        10.523121 59.895644 10.523415 59.893646 10.520525 59.892967 10.521383
+                        59.892866 10.521005 59.892940 10.519563 59.893100 10.519026 59.893590
+                        10.519329 59.894289 10.520081 59.895111 10.521440 59.895759 10.521030
+                        59.896238 10.520467 59.896414 10.520018 59.896214 10.518768 59.895801
+                        10.517388 59.895534 10.516334 59.895144 10.514835 59.894937 10.514185
+                        59.894764 10.514297 59.894586 10.514810 59.895004 10.515830 59.895183
+                        10.517039 59.895151 10.517919 59.894714 10.518579 59.894076 10.517405
+                        59.893506 10.517126 59.892673 10.516965 59.891997 10.516053 59.892252
+                        10.512503 59.893085 10.510816 59.893506 10.509972
+                    </gml:posList>
+                </gml:LineString>
+            </app:grense>
+            <app:identifikasjon>
+                <app:Identifikasjon>
+                    <app:lokalId>2dede54b-ae16-4f8a-9374-83222f1a6633</app:lokalId>
+                    <app:navnerom>
+                        http://skjema.geonorge.no/SOSI/prosuktspesifikasjon/Kartverket/Postsoner/20151210
+                    </app:navnerom>
+                </app:Identifikasjon>
+            </app:identifikasjon>
+            <app:kvalitet>
+                <app:Posisjonskvalitet>
+                    <app:målemetode>55</app:målemetode>
+                    <app:nøyaktighet>200</app:nøyaktighet>
+                </app:Posisjonskvalitet>
+            </app:kvalitet>
+        </app:Postområdegrense>
+    </wfs:member>
+</wfs:FeatureCollection>

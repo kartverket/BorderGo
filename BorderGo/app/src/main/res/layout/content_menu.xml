@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_menu"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="end"
+
+    android:background="@color/colorLightGray"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:adjustViewBounds="true"
+                android:background="@color/colorWhite"
+                android:cropToPadding="false"
+                android:scaleType="fitCenter"
+                android:src="@drawable/kartverket_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/horizontal_padding"
+            android:layout_marginTop="0dp"
+            android:gravity="left"
+            android:text="Innstillinger:"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"/>
+
+        <LinearLayout style="@style/AppTheme.LinearLayoutNumberInput">
+
+            <EditText
+                android:id="@+id/deviceHeight"
+                style="@style/AppTheme.NumberInputOnLeft" />
+            <TextView style="@style/AppTheme.TextLabelRight" android:text="Høydeforskyvning mobilenhet" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/AppTheme.LinearLayoutNumberInput">
+            <EditText android:id="@+id/demZigma" style="@style/AppTheme.NumberInputOnLeft"/>
+            <TextView style="@style/AppTheme.TextLabelRight" android:text="Usikkerhet høydemodell" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/AppTheme.LinearLayoutNumberInput">
+            <EditText android:id="@+id/mapCalibrationZigma" style="@style/AppTheme.NumberInputOnLeft"/>
+            <TextView style="@style/AppTheme.TextLabelRight" android:text="Usikkerhet kartkalibrering" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/AppTheme.LinearLayoutNumberInput">
+            <EditText android:id="@+id/pointCloudZigma" style="@style/AppTheme.NumberInputOnLeft"/>
+            <TextView style="@style/AppTheme.TextLabelRight" android:text="Usikkerhet avstandssensor" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/resetToDefault"
+            style="@style/AppTheme.Button.InMenu"
+            android:onClick="resetToDefault"
+            android:text="Tilbakestill innstillinger" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_weight="0.55" />
+
+
+        <Button
+            android:id="@+id/dataButton"
+            style="@style/AppTheme.Button.InMenu"
+
+            android:onClick="showDataView"
+            android:text="Se data" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/toggleButton"
+            style="@style/AppTheme.Button.InMenu"
+
+            android:onClick="hideInfoBox"
+            android:text="Skjul måleverdier" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        <Button
+           android:id="@+id/toggleLineRemoval"
+            style="@style/AppTheme.Button.InMenu"
+
+            android:onClick="toggleLineRemoval"
+            android:text="Høydegrid: vis bakside" />
+
+
+            <!--
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/heightService"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.55"
+                android:gravity="end"
+                android:text="Height service url:"
+                android:visibility="visible" />
+
+
+            <EditText
+                android:id="@+id/heightServiceUrl"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_weight="0.45"
+                android:background="#DDDDDD"
+                android:inputType="textUri" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="4dp"
+            android:weightSum="1">
+
+
+            <Button
+                android:id="@+id/CheckUrl"
+                style="@android:style/Widget.Material.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:onClick="readHeightServicekUrl"
+                android:text="Read from file " />
+
+            <Button
+                android:id="@+id/saveUrl"
+                style="@android:style/Widget.Material.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:onClick="saveHeightServiceUrl"
+                android:text="Save height service" />
+
+
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+-->
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
+

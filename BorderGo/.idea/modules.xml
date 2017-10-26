@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BorderGo.iml" filepath="$PROJECT_DIR$/BorderGo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data/data.iml" filepath="$PROJECT_DIR$/data/data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/geodesy/geodesy.iml" filepath="$PROJECT_DIR$/geodesy/geodesy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/geometry/geometry.iml" filepath="$PROJECT_DIR$/geometry/geometry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/glrenderer/glrenderer.iml" filepath="$PROJECT_DIR$/glrenderer/glrenderer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/positionorientation/positionorientation.iml" filepath="$PROJECT_DIR$/positionorientation/positionorientation.iml" />
+    </modules>
+  </component>
+</project>

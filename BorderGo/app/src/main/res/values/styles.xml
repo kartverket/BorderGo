@@ -1,0 +1,105 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <!--<item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>-->
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="AppTheme.Button" parent="AppTheme">
+        <item name="android:textSize">@dimen/button_fontSize</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/colorBlue</item>
+        <item name="android:background">@color/colorWhite</item>
+        <item name="android:padding">@dimen/button_padding</item>
+    </style>
+
+    <style name="AppTheme.Button.OnMap" parent="AppTheme.Button">
+        <item name="android:layout_margin">20dp</item>
+    </style>
+
+    <style name="AppTheme.Button.InMenu" parent="AppTheme.Button">
+        <item name="android:layout_margin">@dimen/horizontal_padding</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+
+    <style name="AppTheme.NumberInputOnLeft" parent="AppTheme">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">28dp</item>
+        <item name="android:background">@color/colorWhite</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:imeOptions">actionDone</item>
+    </style>
+
+    <style name="AppTheme.TextLabelRight" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:gravity">start</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="AppTheme.LinearLayoutNumberInput" parent="AppTheme">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/horizontal_padding</item>
+        <item name="android:layout_marginRight">@dimen/horizontal_padding</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:orientation">horizontal</item>
+        <!-- <item name="android:imeOptions">actionDone</item> -->
+
+
+    </style>
+
+
+    <!--
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal"
+
+    -->
+
+
+
+
+    <!-- used to be part of FullScreenTheme <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style> -->
+
+
+
+    <!--<style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar"">
+        < Customize your theme here.
+        <item name="android:textViewStyle">@style/KartverketTextViewStyle</item>
+    </style> -->
+
+    <!-- <style name="KartverketTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">MetaPlus</item>
+    </style>-->
+
+</resources>

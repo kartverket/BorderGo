@@ -1,0 +1,13 @@
+no.kartverket.bordergo
+no.kartverket.bordergo.config
+no.kartverket.bordergo.data
+no.kartverket.data
+no.kartverket.data.api
+no.kartverket.data.dtm
+no.kartverket.data.model
+no.kartverket.data.repository
+no.kartverket.data.utils
+no.kartverket.geodesy
+no.kartverket.geometry
+no.kartverket.glrenderer
+no.kartverket.positionorientation

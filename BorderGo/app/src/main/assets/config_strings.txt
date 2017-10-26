@@ -1,0 +1,8 @@
+KARTVERKET_NORGESKART_URL       ::: https://norgeskart.no/
+KARTVERKET_TOKEN_KEY            :::
+BASE_WMS_SERVICE_URL            :::
+ORTHO_WMS_SERVICE_URL           :::
+WFS_BASE_URL                    ::: https://www.test.matrikkel.no/
+WFS_USER                        :::
+WFS_PASSWRD                     :::
+HEIGHT_SERVICE_URL              :::

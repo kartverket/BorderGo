@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/infoBox"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/textA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="monospace"
+        android:paddingBottom="4dp"
+        android:text="TextView"
+        android:textColor="#FFFF00"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/textB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="monospace"
+        android:paddingBottom="4dp"
+        android:text="TextView"
+        android:textColor="#FFFF00"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/textC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="monospace"
+        android:paddingBottom="4dp"
+        android:text="TextView"
+        android:textColor="#FFFF00"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/textD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="monospace"
+        android:paddingBottom="4dp"
+        android:text="TextView"
+        android:textColor="#FFFF00"
+        android:textSize="12dp" />
+    <TextView
+        android:id="@+id/textD1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="monospace"
+        android:paddingBottom="4dp"
+        android:text="TextView"
+        android:textColor="#FFFF00"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/textE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="monospace"
+        android:paddingBottom="4dp"
+        android:text="TextView"
+        android:textColor="#FFFF00"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/textF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="monospace"
+        android:paddingBottom="4dp"
+        android:text="TextView"
+        android:textColor="#FFFF00"
+        android:textSize="12dp" />
+    <TextView
+        android:id="@+id/textG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="monospace"
+        android:paddingBottom="4dp"
+        android:text="TextView"
+        android:textColor="#FFFF00"
+        android:textSize="12dp" />
+    <!--
+    <TextView
+        android:id="@+id/textC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="10dp"
+        android:textColor="#FFFF00"
+        android:text="TextView"
+        android:paddingBottom="4dp"/>-->
+</LinearLayout>
