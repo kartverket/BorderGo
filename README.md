@@ -208,8 +208,7 @@ The map used for map-calibration is a Google map component. To be able to use th
 
 ## JavaDoc:
 
-Todo: Enable viewing of JavaDoc using github when repositoriy is public: 
-The docs are  in this folder already: https://github.com/kartverket/BorderGo/tree/master/Docs
+https://kartverket.github.io/BorderGo/
 
 
 
