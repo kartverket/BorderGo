@@ -64,31 +64,31 @@ The values listed are:
    
 
 ## Architecture
-We have composed the source as a main app wich relies on several reusable libraries. The mainApp contains the code for the views in the app as well as an Application class called __BorderGoApp__ that spans the views and maintains the global state and a custom config-manager that reads and makes configuration strings available througout the app. But for the research purpose of this app the most central class is the ___GeoPoseForARCoreManager___ wich connects to the __ARCore api__ and handles  __GPS- and compass compass events__ and communicates inputs from those sources to the  __geopose library__ wich in turn attemts to achieve a useful geograpical syncronization. Also it provides direct access to the running instance of the ARPoseProvider when that may be needed.
+We have composed the source as a main app wich relies on several reusable libraries. The mainApp contains the code for the views in the app as well as an Application class called __BorderGoApp__ that spans the views and maintains the global state and a custom config-manager that reads and makes configuration strings available througout the app. But for the research purpose of this app the most central class is the ___TangoService___ wich connects to the __Tango api, GPS, compass__ and provides inputs from these sources to the __positionorientation library__ wich in turn attemts to achieve a useful geograpical syncronization. Also it provides direct access to the running instance of the positionorientation provider for such things as the the map based calibration.
 
 ## Reuseable libraries:
-* geopose
+* positionorientation
 * geodesy
 * data
 * geometry
 * glrenderer
 
-### GeoPose library
-Provides position and orientation information for the application. The ARCore system uses various 
+### Positionorientation library
+Provides position and orientation information for the application. The Tango system uses various 
 device sensors (camera, distance sensors, acceleration/rotation sensors etc...) to find the device 
 position in relation to the environment, and build a geometrical model of the environment. 
 
 The device and environment positions are determined in a local coordinate system with the x and y 
 axis in the horizontal plane, and the z axis towards zenith. The position of the origin and the 
 horizontal orientation of the coordinate system is determined my the device position and orientation 
-when the ARCore-session is initialized.
+when Tango si initialized.
 
-By using data from external sensors the local ARCore coordiante system can be placed and oriented in 
+By using data from external sensors the local Tango coordiante system can be placed and oriented in 
 relation to a global (geographic) coordinate system. For an initial determination of the position and 
 orientation parameters data from the devices compass and GPS may be added through the 
 __handleRotationVectorObservation(float[])__ and __handleLocationObservation(Location)__ methods.
 
-For further refinement manual observations may be added by pointing in a map or using the ARCore point 
+For further refinement manual observations may be added by pointing in a map or using the Tango point 
 cloud sensor for matching against a terrain model. For this purpose you would use the 
 __handlePointCloudObservation(int numPoints, FloatBuffer points, DTMGrid grid, float cloud_accuracy)__ method.
 
@@ -97,7 +97,7 @@ map to proivde observations that tend to be far more accurate than the device GP
 
 The library contains mostly generic functions and interfaces that could be utilized for similar 
 purposes but where no Tango API is used. The __KalmanFilter__ and the __Transform__ classes as well 
-as the __ARPoseProvider__ and __OriginUpdateListener__ 
+as the __PositionOrientationProvider__ and __OriginUpdateListener__ 
 interfaces are to a large degree independent of platform, but would need some changes when using an 
 AR system that allows the numerical coordinates of a physical point to change as the device builds 
 its model of the surroundings.
