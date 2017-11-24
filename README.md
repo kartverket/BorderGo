@@ -5,6 +5,13 @@ The specific purpose of the experiment is to attempt to syncronize the Tango Coo
 
 Since the Tango API only provides a local coordinate system out of the box this experimental app provides an innovative and generally useful approach to the problem of syncronizing a local AR coordinate system with the geographical positions and orientaionts. This functionality is wrapped in the "positionorientation" library.
 
+## License
+The content of this repository is available under the MIT License, see [MITlicense.md](MITlicense.md).
+
+Additionally, the following licenses apply:
+* Kartverkets logo and font: © Kartverket 2017
+* Parts of the glrenderer-code uses software-libraries which is licensed under the Apache License, Version 2.0, see [Apachelicense.md](Apachelicense.md).
+
 ## Using the app
 This is a prototype app and the GUI doesn't provide all the guidance for using it and have norwegian texts. For best results please follow the procedure given here when using it.
 
